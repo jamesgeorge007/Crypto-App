@@ -1,0 +1,30 @@
+body
+{
+    -moz-overflow-style: scroll;
+    -webkit-app-region: drag;
+    background-color: rgba(226, 226, 226, 0.6);
+}
+
+#container
+{
+    width: 380px;
+}
+
+input, button
+{
+    -webkit-app-region: no-drag;
+}
+
+h1
+{
+    -webkit-user-select: none;
+    user-select: none;
+    color: #476;
+}
+
+#headline, #value, #close
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
