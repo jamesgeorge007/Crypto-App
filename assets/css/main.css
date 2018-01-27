@@ -10,8 +10,16 @@ body {
     color: #C91F37;
     font-size: 70px;
     text-decoration: underline;
-    text-decoration-color: darkblue;
-    font-family: Elephant;
+    text-decoration-color: #109;
+    font-family: cooper;
+}
+
+#headline>h1:hover {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration-color: #C91F37;
+    color: #159;
 }
 
 #current_price {
@@ -28,6 +36,30 @@ body {
 #current_price>h1 {
     font-size: 52px;
     color: #e74c3c;
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_change {
+    from {
+        color: #102;
+    }
+    20% {
+        color: #231;
+    }
+    40% {
+        color: #416;
+    }
+    60% {
+        color: #278;
+    }
+    80% {
+        color: #672;
+    }
+    to {
+        color: #109;
+    }
 }
 
 #price>h2 {
@@ -44,8 +76,8 @@ body {
 
 #set {
     font-size: 38px;
-    font-family: forte;
-    color: #9b59b6;
+    font-family: times;
+    color: #c22cb5;
 }
 
 #target_price>i {
