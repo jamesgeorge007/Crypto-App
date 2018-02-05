@@ -9,7 +9,7 @@ This is a Desktop application built in Electron JS which notifies the user whene
 
 <img src="https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/update_window.JPG">
 
-# Instructions
+# Electron JS
 
 [![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
 
@@ -124,4 +124,8 @@ for a community maintained list of useful example apps, tools and resources.
 [MIT](https://github.com/electron/electron/blob/master/LICENSE)
 
 When using the Electron or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+
+# Credits
+
+This project was inspired by coursetro.com
 
