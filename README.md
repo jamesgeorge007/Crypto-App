@@ -3,8 +3,9 @@ This is a Desktop application built in Electron JS which notifies the user whene
 
 # Preview
 
-<img src="https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/tree/master/assets/preview">
+<img src="https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/main_window.JPG">
 
 <br>
 
+<img src="https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/update_window.JPG">
 
