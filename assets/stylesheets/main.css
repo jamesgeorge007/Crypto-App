@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  background-color: floralwhite;
+}
+
+.container{
+  width: 100%;
+  text-align: center
+}
+
+.container h1{
+  font-size: 7em;
+  font-family: monospace;
+  color: #923;
+  text-shadow: 2px 4px #e7e7e7;
+}
+
+.current_price{
+  width: 65%;
+  background-color: #fff;
+  margin: -40px auto;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px 3px #444;
+}
+
+.current_price h2{
+  font-size: 3.2em;
+  font-family: cursive;
+  color: #293;
+  text-shadow: 1px 3px #ccc;
+}
+
+.current_price #price{
+  font-size: 2.6em;
+  font-family: times;
+  color: #444;
+}
+
+.target_price{
+  width: 50%;
+  margin: 50px auto;
+}
+
+.target_price #set h4{
+  font-size: 2em;
+  font-family: sans-serif;
+  color: #333;
+}
+
+button{
+  background-color: #222;
+  margin-top: -20px;
+  padding: 4px;
+  font-size: 2.2em;
+  font-family: serif;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 8px;
+}
+
+button:hover{
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: #fff;
+  color: #222;
+  border-color: #222;
+}
+
+button:active{
+  transform: translateY(8px);
+}

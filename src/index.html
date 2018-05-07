@@ -4,33 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <title>BTC</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/stylesheets/main.css">
 </head>
 
 <body>
 
-    <div id="headline">
+  <div class="container">
         <h1>Crypto App</h1>
-    </div>
 
-    <div id="current_price">
-        <h1>Current Price</h1>
+    <div class="current_price">
+        <h2>Current Price</h2>
         <span id="price">
-                <h2>Loading ...</h2>
+                <h3>Loading ...</h3>
         </span>
     </div>
 
-    <div id="target_price">
-        <i class="fa fa-caret-up" aria-hidden="true"></i>
+    <div class="target_price">
         <span id="set">
-        Choose a target price.
+          <h4>Choose a target price</h4>
         </span>
     </div>
 
-    <div id="notify">
-        <button id="notifyBtn" type="button">Notify Me!</button>
+        <button id="notifyBtn" type="button">Notify Me</button>
+
     </div>
+
 
     <script src="index.js"></script>
 </body>

@@ -15,8 +15,16 @@ close.addEventListener('click', function() {
 
 const updateBtn = document.getElementById('updateBtn')
 
+const notification = {
+    title: 'Alert!!',
+    body: 'BTC value just reached a higher value than you specified.'
+}
+
 updateBtn.addEventListener('click', function() {
     ipc.send('update-notify-value', document.getElementById('price_value').value)
+
+    //const notification = new window.Notification(notification.title, notification)
+    // notification.show()
 
     var win = remote.getCurrentWindow()
     win.close()
