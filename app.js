@@ -8,7 +8,7 @@ const ipc = require('electron').ipcMain
 // be closed automatically when the JavaScript object is garbage collected.
 let win
 
-function createWindow() {
+ createWindow = () => {
     // Create the browser window.
     win = new BrowserWindow({ resizable: false, width: 800, height: 660 })
 
@@ -20,7 +20,7 @@ function createWindow() {
     }))
 
     // Open the DevTools.
-    //win.webContents.openDevTools()
+    win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', () => {
@@ -40,7 +40,7 @@ function createWindow() {
               },
             {
                 label: 'CoinMarkerMap',
-                click() {
+                click(){
                     shell.openExternal('https://coinmarketcap.com')
                 }
             },
@@ -49,7 +49,7 @@ function createWindow() {
             },
             {
                 label: 'Exit',
-                click() {
+                click(){
                     app.quit()
                 }
             }
@@ -60,7 +60,6 @@ function createWindow() {
 
     Menu.setApplicationMenu(menu);
 }
-
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
@@ -83,6 +82,6 @@ app.on('activate', () => {
     }
 })
 
-ipc.on('update-notify-value', function(event, arg) {
+ipc.on('update-notify-value', (event, arg) => {
     win.webContents.send('targetPriceValue', arg)
 })

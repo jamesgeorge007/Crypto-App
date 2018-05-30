@@ -3,12 +3,9 @@ const path = require('path')
 const remote = electron.remote
 const ipc = electron.ipcRenderer
 
-
-
-
 const close = document.getElementById('close_btn')
 
-close.addEventListener('click', function() {
+close.addEventListener('click', () => {
     var window = remote.getCurrentWindow()
     window.close()
 })
@@ -20,7 +17,7 @@ const notification = {
     body: 'BTC value just reached a higher value than you specified.'
 }
 
-updateBtn.addEventListener('click', function() {
+updateBtn.addEventListener('click', () => {
     ipc.send('update-notify-value', document.getElementById('price_value').value)
 
     //const notification = new window.Notification(notification.title, notification)
