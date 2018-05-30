@@ -8,8 +8,6 @@ This is a Desktop application built in Electron JS which notifies the user whene
 
 ![Image](https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/main_window.JPG)
 
-![image](https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/update_window.JPG)
-
 # Electron JS
 
 [![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
