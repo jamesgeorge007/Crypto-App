@@ -6,7 +6,7 @@ This is a Desktop application built in Electron JS which notifies the user whene
 
 ## Preview
 
-![Image](https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/assets/preview/main_window.JPG)
+![Image](https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/src/assets/preview/main_window.JPG)
 
 # Electron JS
 
