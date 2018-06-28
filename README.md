@@ -8,6 +8,10 @@ This is a Desktop application built in Electron JS which notifies the user whene
 
 ![Image](https://github.com/jamesgeorge007/Crypto-App-in-Electron-JS/blob/master/src/assets/preview/main_window.JPG)
 
+## Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/jamesgeorge007/Crypto-App.svg)](https://starcharts.herokuapp.com/jamesgeorge007/Crypto-App)
+
 # License
 
 > **The MIT License**
