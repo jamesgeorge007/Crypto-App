@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^7.1.10",
-    "electron-packager": "^14.1.1"
+    "electron-packager": "^14.2.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
