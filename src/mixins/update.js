@@ -1,28 +1,28 @@
-const electron = require('electron')
-const path = require('path')
-const remote = electron.remote
-const ipc = electron.ipcRenderer
+const electron = require("electron");
+const path = require("path");
+const remote = electron.remote;
+const ipc = electron.ipcRenderer;
 
-const close = document.getElementById('close_btn')
+const close = document.getElementById("close_btn");
 
-close.addEventListener('click', () => {
-    var window = remote.getCurrentWindow()
-    window.close()
-})
+close.addEventListener("click", () => {
+  var window = remote.getCurrentWindow();
+  window.close();
+});
 
-const updateBtn = document.getElementById('updateBtn')
+const updateBtn = document.getElementById("updateBtn");
 
 const notification = {
-    title: 'Alert!!',
-    body: 'BTC value just reached a higher value than you specified.'
-}
+  title: "Alert!!",
+  body: "BTC value just reached a higher value than you specified.",
+};
 
-updateBtn.addEventListener('click', () => {
-    ipc.send('update-notify-value', document.getElementById('price_value').value)
+updateBtn.addEventListener("click", () => {
+  ipc.send("update-notify-value", document.getElementById("price_value").value);
 
-    //const notification = new window.Notification(notification.title, notification)
-    // notification.show()
+  //const notification = new window.Notification(notification.title, notification)
+  // notification.show()
 
-    var win = remote.getCurrentWindow()
-    win.close()
-})
+  var win = remote.getCurrentWindow();
+  win.close();
+});
